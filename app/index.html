@@ -14,6 +14,7 @@
 		 <!-- CSS -->
 		 <link href="css/normalize.css" rel="stylesheet">
 		 <link href="css/stylesheet.css" rel="stylesheet">
+		 <link href="fonts/fira.css" rel="stylesheet">
 		 <link href="css/main.css" rel="stylesheet">
 		 <!-- JS -->
 	</head>
@@ -23,7 +24,7 @@
 		Пожалуйста<a href="http://browsehappy.com/">обновите</a> его.</p>
 		<![endif]-->
 		<div class="wrapper">
-			<header>
+			<header class="header">
 			<div class="container container_wide clearfix">
 				<div class="logo">
 					<img src="img/logo.png" alt="">
@@ -41,43 +42,84 @@
 			<main class="main clearfix">
 			<div class="container clearfix">
 				<aside class="sidebar">
-					<div class="navigation">
-						<ul>
-							<li><a href="/index.html">Обо мне</a></li>
-							<li><a href="#">Мои работы</a></li>
-							<li><a href="#">Связаться со мной</a></li>
+					<nav class="navigation">
+						<ul class="navigation-ul">
+							<li class="navigation-ul-li current"><a href="index.html">Обо мне</a></li>
+							<li class="navigation-ul-li"><a href="#">Мои работы</a></li>
+							<li class="navigation-ul-li"><a href="#">Связаться со мной</a></li>
 						</ul>
-					</div>
+					</nav>
 					<div class="contacts">
 					<div class="contacts-title">
 						<span>Контакты</span>
 					</div>
-						<div class="contacts-items">
-							<ul>
-								<li class="mail icon icon-mail">tatarrr95@gmail.com</li>
-								<li class="phone"></li>
-								<li class="skype"></li>
+						<div class="contacts-items clearfix">
+							<ul class="contacts-items-ul">
+								<li class="contacts-items-mail clearfix">
+									<div class="contact-icon mail-image"></div>
+									<a class="contact-list-item" href="#">tatarrr95@gmail.com</a>
+								</li>
+								<li class="contacts-items-phone clearfix">
+									<div class="contact-icon phone-image"></div>
+									<a class="contact-list-item" href="#">79146627877</a>
+								</li>
+								<li class="contacts-items-skype clearfix">
+									<div class="contact-icon skype-image"></div>
+									<a class="contact-list-item" href="#">valakas28</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</aside>
 
 				<section class="section">
-					<article>
-						<div class="article_head">
-							<h2>Основная информация</h2>
+					<article class="article clearfix">
+						<div class="article-head">
+							Основная информация
 						</div>
-						<div class="article_avatar">
-							<img src="img/user/avatar.png" alt="">
+						<div class="article-avatar">
+							<div class="avatar-box">
+								<img src="img/myavatar.jpg" alt="">
+							</div>
 						</div>
-						<div class="articleinfo">
+						<div class="article-info">
+							<ul>
+								<li class="clearfix">
+									<div class="article-info-what">Меня зовут:</div> 
+									<div class="article-info-answer">Татаринов Алексей Юрьевич</div>
+								</li>
+								<li class="clearfix">			
+									<div class="article-info-what">Мой возраст:</div> 
+									<div class="article-info-answer">20 лет</div>
+								</li>
+								<li class="clearfix">
+									<div class="article-info-what">Мой город:</div>
+								 	<div class="article-info-answer">Владивосток, Россия</div>
+								</li>
+								<li class="clearfix">
+									<div class="article-info-what">Моя специализация:</div> 
+									<div class="article-info-answer">Back-End разработчик</div>
+								</li>
+								<li class="clearfix">
+									<div class="article-info-what">Ключевые навыки:</div> 
+								</li>
+							</ul>
+						</div>
+					</article>
 
+					<article class="article clearfix">
+						<div class="article-head">
+							Опыт работы
 						</div>
+						<ul class="work-list">
+							<li class="work-list-item icon-work">
+								<div class="work-list-item-where">"ОАО Ростелеком"" - Аутсорсер</div>
+								<div class="work-list-item-time">Апрель 2015 - до сих пор</div>
+							</li>
+						</ul>
 					</article>
-					<article>
-						
-					</article>
-					<article>
+
+					<article class="article clearfix">
 						
 					</article>
 				</section>

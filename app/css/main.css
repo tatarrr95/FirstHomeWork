@@ -21,12 +21,25 @@ body, html{
 	position: relative;
 }
 
-header{
-	top: 0px;
-	left: 0px;
+header.header{
 	width: 100%;
 	background-color: #eff3f7;
   	height: 119px;
+  	position: relative;
+  	margin-bottom: 39px;
+}
+
+header:after{
+	content: "";
+	display: block;
+	bottom: 0;
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+	
 }
 
 
@@ -42,6 +55,19 @@ footer{
 	width: 100%;
 }
 
+footer:before{
+	content: "";
+	display: block;
+	top: 0;
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+	
+}
+
 .container{
 	width: 960px;
 	margin: 0 auto;
@@ -50,6 +76,8 @@ footer{
 .container_wide{
 	width: 1200px;
 }
+
+/*---------HEADER-------------*/
 
 .logo{
 	margin-top: 39px;
@@ -77,25 +105,34 @@ footer{
   	overflow: hidden;
 }
 
-.navigation {
+/*--------------------------------------*/
+
+/*---------SIDEBAR-----------*/
+
+nav.navigation {
 	width: 250px;
+	margin-bottom: 23px;
+	overflow: hidden;
+	border-radius: 4px;
 }
 
-aside{
+aside.sidebar{
 	float: left;
 	width: 250px;
 }
 
-.navigation ul{
+.navigation-ul{
+	margin: 0;
 	padding: 0;
 	background-color: #eff3f7;
   	font-size: 21px;
-	font-family: Arial;
+  	line-height: 21px;
+  	font-family: fira_sansbook;
 	color: #959aa8;
 	list-style-type: none;
 }
 
-.navigation ul li{
+.navigation-ul-li{
 	display: block;
 	margin: 0px 10px;
 	padding: 27px 0px;
@@ -104,30 +141,169 @@ aside{
 	border-color: #3ba8c0
 }
 
-.navigation ul li:last-child{
+.current{
+	background-color: #3ba8c0;
+	margin: 0;
+	padding-left: 28px;
+}
+
+.current a{
+	color: #ffffff !important;
+}
+
+.navigation-ul-li:last-child{
 	border-bottom: none;
 }
 
-.navigation ul li a{
+.navigation-ul-li a{
 	color: #959aa8;
 	text-decoration: none;
 }
 
-.navigation ul a:hover{
+.navigation-ul a:hover{
 	color: #3ba8c0;
 }
 
-.navigation ul li a:target{
+.navigation-ul-li a:active{
 	background: #3ba8c0;
 	color: #ffffff;
 }
 
-.main{
-	margin-top: 37px;
+.contacts{
+	margin-bottom: 23px;
 }
 
-.section{
-	margin-left: 60px;
+.contacts-title{
+	font-family: fira_sansbook;
+	line-height: 21px;
+	font-size: 21px;
+	padding: 14px 140px 10px 21px;
+	background-color: #3ba8c0;
+	color: white;
+}
+
+.contacts-items-ul{
+	padding: 0;
+	margin: 0;
+	font-family: fira_sansbook;
+	font-size: 17px;
+	line-height: 17px;
+	color: white;
+	background-color: #51daf8;
+}
+
+.contact-icon{
 	float: left;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	margin-left: 42px;
+}
+
+.mail-image{
+	background-image: url(../img/mail.png);
+}
+
+.phone-image{
+	background-image: url(../img/tel.png);
+}
+
+.skype-image{
+	background-image: url(../img/skype.png);
+}
+
+.contacts-items-mail{
+	background-color: #41b9d4;
+	padding-bottom: 13px;
+}
+
+.contacts-items-phone{
+	background-color: #48cbe8;
+	padding-bottom: 13px;
+}
+
+.contacts-items-skype{
+	background-color: #51daf8;
+	padding-bottom: 13px;
+}
+
+.contact-list-item{
+	font-family: fira_sansbook;
+	font-size: 17px;
+	line-height: 17px;
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.contact-list-item:hover{
+	text-decoration: underline;
+}
+
+/*--------------------------------*/
+
+.section{
+	float: right;
 	width: 650px;
 }
+
+article.article{
+	background-color: #eff3f7;
+	padding-bottom: 46px;
+	margin-bottom: 26px;
+}
+
+.article-head{
+	color: #3ba8c0;
+	padding: 20px 0px;
+	padding-left: 22px;
+	border-bottom: 2px #3ba8c0 solid;
+	font-family: fira_sansbook;
+	font-size: 27px;
+	line-height: 27px;
+	margin-bottom: 18px;
+}
+
+.article-avatar{
+	float: left;
+	margin-top: 18px;
+	margin-left: 55px;
+}
+
+.avatar-box{
+	width: 142px;
+	height: 142px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+}
+
+.article-info{
+	float: right;
+	width: 400px;
+}
+
+.article-info ul{
+	list-style: none;
+	margin: 0 0;
+	padding: 0 0;
+	line-height: 200%;
+}
+
+.article-info-what{
+	float: left;
+	font-family: fira_sansbook;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.article-info-answer{
+	float: left;
+	margin-left: 25px;
+
+	font-family: fira_sansbook;
+	font-size: 15px;
+	max-width: 218px;
+	overflow: hidden;
+}
+
