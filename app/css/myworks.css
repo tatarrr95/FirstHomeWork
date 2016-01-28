@@ -1,0 +1,134 @@
+.article-head{
+	color: #3ba8c0;
+	padding: 20px 22px;
+	border-bottom: 2px #3ba8c0 solid;
+	font-family: fira_sansbook;
+	font-size: 27px;
+	line-height: 27px;
+	margin-bottom: 18px;
+	display: inline-block;
+}
+
+.myworks{
+	margin-left: 22px;
+	margin-right: -25px; /*Не могу выровнять список по центру из-за отступа справа, поэтому такой хак*/
+}
+
+.myworks .myworks-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.myworks .myworks-list-item{
+	max-width: 183px;
+	display: inline-block;
+	/*margin-right: 20px;*/
+	margin-right: 32px;
+	margin-bottom: 44px;
+	position: relative;
+	top: 0px;
+	float: left;
+}
+
+/*---Картинка + ховер---*/
+
+.project-image{
+	border: 1px solid #3ba8c0;
+	border-radius: 6px;
+	overflow: hidden;
+	line-height: 0px;
+	margin-bottom: 11px;
+}
+
+.project-url-on-image{
+	position: absolute;
+    width: 100%;
+    top: 60px;
+    text-align: center;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.project-image:hover .project-url-on-image{
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.project-image .hover-link{
+	font-size: 12px;
+    border: 1px solid #eff3f7;
+    font-family: fira_sansbook;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+
+.project-image:hover .project-image-hover{
+	-moz-opacity: 0.20;
+	opacity:.20;
+	filter: alpha(opacity=20);
+}
+
+.project-image:hover{
+	background-color: rgba(1, 108, 164, 0.749);
+}
+
+/* ---Все, что под картинкой--- */
+
+.project-name{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.project-name .project-name-link{
+	text-decoration: none;
+	font-family: fira_sanslight_italic;
+	font-size: 13px;
+	color: #3ba8c0;
+	font-weight: 200%;
+}
+
+.project-description{
+	font-family: fira_sanslight;
+	font-size: 15px;
+	color: #4a545d;
+  	text-align: center;
+}
+
+/* ---Блок с добавлением проекта--- */
+
+.add-project{
+	width: 181px;
+	height: 127px;
+	border: 1px solid #3ba8c0;
+	border-radius: 6px;
+	overflow: hidden;
+	background-color: rgba(236, 251, 255, 0.639);
+	border-style: dashed;
+}
+
+.add-project .add-project-image{
+	display: block;
+	margin: 35px auto;
+	margin-bottom: 12px;
+}
+
+.add-project-text{
+	text-align: center;
+	font-family: fira_sanslight;
+	font-size: 13px;
+	color: #3ba8c0;
+}
+
+.add-project-link{
+	display: block;
+	text-decoration: none;
+}
+
+
+

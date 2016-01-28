@@ -1,0 +1,122 @@
+.article-head{
+	color: #3ba8c0;
+	padding: 20px 22px;
+	border-bottom: 2px #3ba8c0 solid;
+	font-family: fira_sansbook;
+	font-size: 27px;
+	line-height: 27px;
+	margin-bottom: 18px;
+	display: inline-block;
+}
+
+.article-avatar{
+	float: left;
+	margin-top: 18px;
+	margin-left: 55px;
+}
+
+.avatar-box{
+	width: 142px;
+	height: 142px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+	text-align: center;
+}
+
+.article-info{
+	float: right;
+	width: 400px;
+}
+
+.article-info ul{
+	list-style: none;
+	margin: 0 0;
+	padding: 0 0;
+	line-height: 200%;
+}
+
+.article-info-what{
+	float: left;
+	font-family: fira_sansbook;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 25px;
+}
+
+.article-info-answer{
+	float: left;
+	font-family: fira_sansbook;
+	font-size: 15px;
+	max-width: 218px;
+	overflow: hidden;
+}
+
+.skills-list{
+	float: left;
+	margin-left: 25px;
+	max-width: 218px;
+	display: inline-block;
+}
+
+.skills-list-item{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 18px;
+	margin-right: 8px;
+	padding: 0px 10px;
+	font-family: fira_sansbook;
+	color: white;
+	border-radius: 2px;
+    background: #3ba8c0; /* Old browsers */ /* FF3.6-15 */
+    background: -webkit-linear-gradient(#3ba8c0 0%, #3ba8c0 50%, #2e8ca2 51%, #2e8ca2 100%);
+    background: -o-linear-gradient(#3ba8c0 0%, #3ba8c0 50%, #2e8ca2 51%, #2e8ca2 100%);
+    background: linear-gradient(#3ba8c0 0%, #3ba8c0 50%, #2e8ca2 51%, #2e8ca2 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 ); /* IE6-9 */
+}
+
+
+.work-list{
+	margin: 0px 58px;
+	padding: 0;
+}
+
+.icon-work{
+	background: url(../img/rab.png) no-repeat left center;
+    padding-left: 65px;
+    list-style: none;
+    margin: 0;
+}
+
+.icon-education{
+	background: url(../img/uch.png) no-repeat left center;
+    padding-left: 65px;
+    list-style: none;
+    margin: 0;
+}
+
+.icon-loftschool{
+	background: url(../img/kurs.png) no-repeat left center;
+    padding-left: 65px;
+    list-style: none;
+    margin: 0;
+}
+
+.work-list-item{
+	margin-bottom: 20px;
+}
+
+.work-list-item:last-child{
+	margin-bottom: 0px;
+}
+
+.work-list-item-where{
+	font-size: 17px;
+	font-weight: 150%;
+	font-family: fira_sansbook;
+}
+
+.work-list-item-time{
+	font-size: 15px;
+	font-family: fira_sansbook;
+}
