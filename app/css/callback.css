@@ -1,0 +1,120 @@
+.article-head-2{
+	height: 121px;
+	background-color: #48cbe8;
+	position: relative;
+	border-bottom: 17px solid #67dffa;
+	margin-bottom: 47px;
+}
+
+.article-head-2 .head-2-text{
+	display: block;
+	font-size: 27px;
+	line-height: 27px;
+	color: white;
+	font-family: fira_sansbook;
+	text-align: center;
+	padding-top: 49px;
+}
+
+.callback-form{
+	width: 401px;
+	margin: 0 auto;
+}
+
+.field{
+	height: 37px;
+	border: 1px solid rgb(72, 203, 232);
+	border-radius: 3px;
+	color: #54cee9;
+	font-size: 13px;
+	font-family: fira_sanslight;
+}
+
+.form-name, .form-email{
+	width: 191px;
+}
+
+.name-email-left{
+	display: inline-block;
+	float: left;
+}
+
+.name-email-right{
+	display: inline-block;
+	float: right;
+}
+
+.field::-webkit-input-placeholder{
+	padding-left: 10px;
+	color: #54cee9;
+}
+
+.field:focus::-webkit-input-placeholder{
+	color: transparent
+}
+
+
+.form-label{
+	font-size: 19px;
+	line-height: 19px;
+	font-family: fira_sanslight;
+	color: #959aa8;
+	display: block;
+	margin-bottom: 6px;
+}
+
+.callback-name-email{
+	margin-bottom: 16px;
+}
+
+.form-message{
+	width: 100%;
+	height: 183px;
+	margin-bottom: 17px;
+	padding: 0;
+}
+
+.form-message::-webkit-input-placeholder{
+	padding-top: 14px;
+}
+
+.form-captcha{
+	float: left;
+}
+
+.form-captcha-code{
+	display: block;
+	width: 100%;
+}
+
+.captcha-vertical-allign{
+	width: 192px;
+	float: right;
+	padding-top: 21px; 
+}
+
+.callback-captcha{
+	margin-bottom: 21px;
+}
+
+.form-submit{
+	float: left;
+	background-color: #48cbe8;
+}
+
+.form-clear{
+	float: right;
+	background-color: #959aa8;
+}
+
+.form-clear, .form-submit{
+	border-radius: 5px;
+	color: white;
+	font-family: fira_sansbook;
+	font-size: 19px;
+	line-height: 19px;
+	padding: 9px 21px;
+}
+
+
+
