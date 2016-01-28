@@ -1,1 +1,4 @@
 ishodnik/
+app/bower
+dist
+node_modules
