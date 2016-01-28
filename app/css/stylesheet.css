@@ -1,132 +1,53 @@
 .icon {
-    background-image: url(../img/spritesheet.png);
+    background-image: url(../img/icons/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
 }
 
 .icon-facebook {
-    width: 48px;
+    width: 47px;
     height: 48px;
     background-position: -5px -5px;
 }
 
 .icon-facebook:hover {
-    width: 48px;
+    width: 47px;
     height: 48px;
     background-position: -62px -5px;
 }
 
-
 .icon-github {
-    width: 48px;
+    width: 47px;
     height: 48px;
-    background-position: -159px -5px;
+    background-position: -119px -5px;
 }
 
 .icon-github:hover {
-    width: 48px;
+    width: 47px;
     height: 48px;
-    background-position: -5px -62px;
-}
-
-.icon-gmail {
-    width: 30px;
-    height: 30px;
-    background-position: -62px -62px;
-}
-
-.icon-kurs {
-    width: 26px;
-    height: 32px;
-    background-position: -102px -62px;
-}
-
-.icon-linkedin {
-    width: 30px;
-    height: 30px;
-    background-position: -138px -62px;
-}
-
-.icon-login {
-    width: 20px;
-    height: 32px;
-    background-position: -178px -62px;
-}
-
-.icon-login_complete {
-    width: 20px;
-    height: 32px;
-    background-position: -62px -104px;
-}
-
-.icon-mail {
-    width: 21px;
-    height: 16px;
-    background-position: -92px -104px;
-}
-
-.icon-rab {
-    width: 36px;
-    height: 34px;
-    background-position: -123px -104px;
-}
-
-.icon-skype {
-    width: 20px;
-    height: 20px;
-    background-position: -169px -104px;
-}
-
-.icon-stackoverflow {
-    width: 30px;
-    height: 30px;
-    background-position: -5px -134px;
-}
-
-.icon-tel {
-    width: 19px;
-    height: 20px;
-    background-position: -92px -134px;
-}
-
-.icon-tumblr {
-    width: 30px;
-    height: 30px;
-    background-position: -169px -134px;
+    background-position: -176px -5px;
 }
 
 .icon-tw {
-    width: 48px;
+    width: 47px;
     height: 48px;
-    background-position: -216px -5px;
+    background-position: -233px -5px;
 }
 
 .icon-tw:hover {
-    width: 48px;
+    width: 47px;
     height: 48px;
-    background-position: -208px -62px;
-}
-
-.icon-twitter {
-    width: 30px;
-    height: 30px;
-    background-position: -209px -119px;
-}
-
-.icon-uch {
-    width: 41px;
-    height: 23px;
-    background-position: -209px -159px;
+    background-position: -290px -5px;
 }
 
 .icon-vk {
-    width: 48px;
+    width: 47px;
     height: 48px;
-    background-position: -5px -192px;
+    background-position: -347px -5px;
 }
 
 .icon-vk:hover {
-    width: 48px;
+    width: 47px;
     height: 48px;
-    background-position: -62px -192px;
+    background-position: -404px -5px;
 }

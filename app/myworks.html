@@ -6,17 +6,22 @@
 		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		 <!-- Корректное масштабирование на разных устройствах -->
 		 <meta name="viewport" content="width=1240, initial-scale=1">
-		 <title>1 ИДЗ, часть 1, Татаринов</title>
+		 <title>Портфолио. Мои работы.</title>
 		 <!--SEO -->
-		 <meta name="description" content="">
+		 <meta name="description" content="Портфолио Татаринова Алексея специально для LoftBlog.ru">
 		 <meta name="keywords" content="">
-		 <meta name="author" content="">
-		 <!-- CSS -->
-		 <link href="css/normalize.css" rel="stylesheet">
+		 <meta name="author" content="Татаринов Алексей">
+		 <!-- favicon -->
+		 <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+		 <!-- bower CSS -->
+		 <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+		 <!-- My CSS -->
 		 <link href="css/stylesheet.css" rel="stylesheet">
 		 <link href="fonts/fira.css" rel="stylesheet">
 		 <link href="css/main.css" rel="stylesheet">
 		 <link href="css/myworks.css" rel="stylesheet">
+		 <!-- JS -->
+		 <script src="bower/modernizer/modernizr.js"></script>
 		 <!-- JS -->
 	</head>
 	<body>
@@ -28,14 +33,14 @@
 			<header class="header">
 			<div class="container container_wide clearfix">
 				<div class="logo">
-					<img src="img/logo.png" alt="">
+					<img src="img/logo.png" alt="Портфолио Татаринова Алексея">
 				</div>
 				<div class="icons">
 					<ul>
-						<li><a class="icon icon-vk" href="#">vk</a></li>
-						<li><a class="icon icon-tw" href="#">twitter</a></li>
-						<li><a class="icon icon-facebook" href="#">fb</a></li>
-						<li><a class="icon icon-github" href="#">github</a></li>
+						<li><a class="icon icon-vk" target="_blank" href="https://vk.com/tatarrr95">vk</a></li>
+						<li><a class="icon icon-tw" target="_blank" href="#">twitter</a></li>
+						<li><a class="icon icon-facebook" target="_blank" href="#">fb</a></li>
+						<li><a class="icon icon-github" target="_blank" href="https://github.com/tatarrr95">github</a></li>
 					</ul>
 				</div>
 				</div>
@@ -45,9 +50,9 @@
 				<aside class="sidebar">
 					<nav class="navigation">
 						<ul class="navigation-ul">
-							<li class="navigation-ul-li"><a href="index.html">Обо мне</a></li>
-							<li class="navigation-ul-li current"><a href="myworks.html">Мои работы</a></li>
-							<li class="navigation-ul-li"><a href="#">Связаться со мной</a></li>
+							<li class="navigation-ul-li"><a class="menu-link" href="index.html">Обо мне</a></li>
+							<li class="navigation-ul-li  current"><a class="menu-link" href="myworks.html">Мои работы</a></li>
+							<li class="navigation-ul-li"><a class="menu-link" href="callback.html">Связаться со мной</a></li>
 						</ul>
 					</nav>
 					<div class="contacts">
@@ -58,15 +63,15 @@
 							<ul class="contacts-items-ul">
 								<li class="contacts-items-mail clearfix">
 									<div class="contact-icon mail-image"></div>
-									<a class="contact-list-item" href="#">tatarrr95@gmail.com</a>
+									<a class="contact-list-item" href="mailto:tatarrr95@gmail.com">tatarrr95@gmail.com</a>
 								</li>
 								<li class="contacts-items-phone clearfix">
 									<div class="contact-icon phone-image"></div>
-									<a class="contact-list-item" href="#">79146627877</a>
+									<a class="contact-list-item" href="skype:+79146627877?call">+79146627877</a>
 								</li>
 								<li class="contacts-items-skype clearfix">
 									<div class="contact-icon skype-image"></div>
-									<a class="contact-list-item" href="#">valakas28</a>
+									<a class="contact-list-item" href="skype:valakas28?call">valakas28</a>
 								</li>
 							</ul>
 						</div>
@@ -83,7 +88,7 @@
 								<ul class="myworks-list clearfix">
 									<li class="myworks-list-item">
 										<div class="project-image">
-											<img class="project-image-hover" src="img/site-1.png" alt="">
+											<img class="project-image-hover" src="img/user/site-1.png" alt="site 1">
 											<div class="project-url-on-image"><a class="hover-link" href="#">www.site1.ru</a></div>
 										</div>
 										<div class="project-name"><a class="project-name-link" href="#">www.site1.ru</a></div>
@@ -91,7 +96,7 @@
 									</li>
 									<li class="myworks-list-item">
 										<div class="project-image">
-											<img class="project-image-hover" src="img/site-2.png" alt="">
+											<img class="project-image-hover" src="img/user/site-2.png" alt="site 2">
 											<div class="project-url-on-image"><a class="hover-link" href="#">www.site2.ru</a></div>
 										</div>
 										<div class="project-name"><a class="project-name-link" href="#">www.site2.ru</a></div>
@@ -99,7 +104,7 @@
 									</li>
 									<li class="myworks-list-item">
 										<div class="project-image">
-											<img class="project-image-hover" src="img/site-3.png" alt="">
+											<img class="project-image-hover" src="img/user/site-3.png" alt="site 3">
 											<div class="project-url-on-image"><a class="hover-link" href="#">www.site3.ru</a></div>
 										</div>
 										<div class="project-name"><a class="project-name-link" href="#">www.site3.ru</a></div>
@@ -107,7 +112,7 @@
 									</li>
 									<li class="myworks-list-item">
 										<div class="project-image">
-											<img class="project-image-hover" src="img/site-4.png" alt="">
+											<img class="project-image-hover" src="img/user/site-4.png" alt="site 4">
 											<div class="project-url-on-image"><a class="hover-link" href="#">www.site4.ru</a></div>
 										</div>
 										<div class="project-name"><a class="project-name-link" href="#">www.site4.ru</a></div>
@@ -116,7 +121,7 @@
 									<li class="myworks-list-item">
 										<a href="#" class="add-project-link">
 											<div class="add-project">
-													<img class="add-project-image" src="img/add-image.png" alt="">
+													<img class="add-project-image" src="img/icons/add-image.png" alt="Добавить изображение">
 													<div class="add-project-text">Добавить проект</div>
 												</div>
 										</a>

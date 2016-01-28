@@ -82,21 +82,21 @@
 }
 
 .icon-work{
-	background: url(../img/rab.png) no-repeat left center;
+	background: url(../img/icons/rab.png) no-repeat left center;
     padding-left: 65px;
     list-style: none;
     margin: 0;
 }
 
 .icon-education{
-	background: url(../img/uch.png) no-repeat left center;
+	background: url(../img/icons/uch.png) no-repeat left center;
     padding-left: 65px;
     list-style: none;
     margin: 0;
 }
 
 .icon-loftschool{
-	background: url(../img/kurs.png) no-repeat left center;
+	background: url(../img/icons/kurs.png) no-repeat left center;
     padding-left: 65px;
     list-style: none;
     margin: 0;

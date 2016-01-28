@@ -47,7 +47,7 @@ header:after{
 	height: 100px;
 }
 
-footer{
+.page-footer{
 	margin-top: -100px;
 	position: relative;
 	background-color: #eff3f7;
@@ -55,7 +55,7 @@ footer{
 	width: 100%;
 }
 
-footer:before{
+.page-footer:before{
 	content: "";
 	display: block;
 	top: 0;
@@ -101,7 +101,7 @@ footer:before{
 
 .footer-login-a{
 	display: block;
-	background: url(../img/login.png);
+	background: url(../img/icons/login.png);
 	text-indent: -9999px;
 	background-repeat: no-repeat;
 	padding-left: 24px;
@@ -109,7 +109,7 @@ footer:before{
 }
 
 .footer-login-a:hover{
-	background-image: url(../img/login_complete.png);
+	background-image: url(../img/icons/login_complete.png);
 	background-repeat: no-repeat;
 }
 
@@ -145,14 +145,14 @@ footer:before{
 
 /*---------SIDEBAR-----------*/
 
-nav.navigation {
+.navigation {
 	width: 250px;
 	margin-bottom: 23px;
 	overflow: hidden;
 	border-radius: 4px;
 }
 
-aside.sidebar{
+.sidebar{
 	float: left;
 	width: 250px;
 }
@@ -176,14 +176,14 @@ aside.sidebar{
 	border-bottom: 2px #3ba8c0 solid;
 }
 
-.current{
+.current{                             /*Закомментировать на сайте*/
 	background-color: #3ba8c0;
 	margin: 0;
 	padding-left: 28px;
 	margin-top: -3px;
 }
 
-.current a{
+.current .menu-link{
 	color: #ffffff !important;
 }
 
@@ -191,19 +191,19 @@ aside.sidebar{
 	border-bottom: none;
 }
 
-.navigation-ul-li a{
+.navigation-ul-li .menu-link{
 	color: #959aa8;
 	text-decoration: none;
 }
 
-.navigation-ul a:hover{
+.navigation-ul .menu-link:hover{
 	color: #3ba8c0;
 }
 
-.navigation-ul-li a:active{
+/* .navigation-ul-li .menu-link:active{
 	background: #3ba8c0;
 	color: #ffffff;
-}
+} */
 
 .contacts{
 	margin-bottom: 23px;
@@ -237,15 +237,15 @@ aside.sidebar{
 }
 
 .mail-image{
-	background-image: url(../img/mail.png);
+	background-image: url(../img/icons/mail.png);
 }
 
 .phone-image{
-	background-image: url(../img/tel.png);
+	background-image: url(../img/icons/tel.png);
 }
 
 .skype-image{
-	background-image: url(../img/skype.png);
+	background-image: url(../img/icons/skype.png);
 }
 
 .contacts-items-mail{
