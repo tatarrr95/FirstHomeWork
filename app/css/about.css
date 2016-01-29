@@ -24,6 +24,11 @@
 	text-align: center;
 }
 
+.avatar-img{
+	max-width: 220px;
+	float: right;
+}
+
 .article-info{
 	float: right;
 	width: 400px;

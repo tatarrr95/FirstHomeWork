@@ -128,11 +128,11 @@ header:after{
 	margin-bottom: 37px;
 }
 
-.icons ul{
+.icons .icon-list{
 	margin: 0px;
 }
 
-.icons li{
+.icons .icon-list-item{
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 24px;
@@ -171,20 +171,21 @@ header:after{
 .navigation-ul-li{
 	display: block;
 	margin: 0px 10px;
-	padding: 27px 0px;
-	padding-left: 18px;
 	border-bottom: 2px #3ba8c0 solid;
+	word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .current{                             /*Закомментировать на сайте*/
 	background-color: #3ba8c0;
 	margin: 0;
-	padding-left: 28px;
+	padding-left: 10px;
 	margin-top: -3px;
 }
 
 .current .menu-link{
 	color: #ffffff !important;
+	max-width: 250px;
 }
 
 .navigation-ul-li:last-child{
@@ -194,6 +195,10 @@ header:after{
 .navigation-ul-li .menu-link{
 	color: #959aa8;
 	text-decoration: none;
+	padding: 27px 28px;
+	display: block;
+	height: 100%;
+	margin: 0px -10px;
 }
 
 .navigation-ul .menu-link:hover{
@@ -213,9 +218,11 @@ header:after{
 	font-family: fira_sansbook;
 	line-height: 21px;
 	font-size: 21px;
-	padding: 14px 140px 10px 21px;
+	padding: 14px 21px 10px 21px;
 	background-color: #3ba8c0;
 	color: white;
+	word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .contacts-items-ul{
@@ -229,11 +236,11 @@ header:after{
 }
 
 .contact-icon{
+	margin-top: 0px;
 	float: left;
-	width: 20px;
+	width: 21px;
 	height: 20px;
 	background-repeat: no-repeat;
-	margin-left: 42px;
 }
 
 .mail-image{
@@ -248,28 +255,34 @@ header:after{
 	background-image: url(../img/icons/skype.png);
 }
 
+.contacts-items-block{
+	display: block;
+	padding: 11px 10px 11px 42px;
+}
+
 .contacts-items-mail{
 	background-color: #41b9d4;
-	padding-bottom: 13px;
 }
 
 .contacts-items-phone{
 	background-color: #48cbe8;
-	padding-bottom: 13px;
 }
 
 .contacts-items-skype{
 	background-color: #51daf8;
-	padding-bottom: 13px;
 }
 
 .contact-list-item{
+	display: block;
+	float: right;
+	width: 165px;
 	font-family: fira_sansbook;
 	font-size: 17px;
 	line-height: 17px;
-	margin-left: 10px;
 	color: white;
 	text-decoration: none;
+	word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .contact-list-item:hover{
