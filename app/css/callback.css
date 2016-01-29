@@ -25,13 +25,14 @@
 	height: 37px;
 	border: 1px solid rgb(72, 203, 232);
 	border-radius: 3px;
-	color: #54cee9;
 	font-size: 13px;
 	font-family: fira_sanslight;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .form-name, .form-email{
-	width: 191px;
+	width: 171px;
 }
 
 .name-email-left{
@@ -45,7 +46,6 @@
 }
 
 .field::-webkit-input-placeholder{
-	padding-left: 10px;
 	color: #54cee9;
 }
 
@@ -68,14 +68,14 @@
 }
 
 .form-message{
-	width: 100%;
+	display: block;
+	width: 380px;
 	height: 183px;
 	margin-bottom: 17px;
-	padding: 0;
+	padding: 10px;
 }
 
 .form-message::-webkit-input-placeholder{
-	padding-top: 14px;
 }
 
 .form-captcha{
@@ -84,7 +84,7 @@
 
 .form-captcha-code{
 	display: block;
-	width: 100%;
+	width: 174px;
 }
 
 .captcha-vertical-allign{
@@ -108,12 +108,15 @@
 }
 
 .form-clear, .form-submit{
+	max-width: 170px;
 	border-radius: 5px;
 	color: white;
 	font-family: fira_sansbook;
 	font-size: 19px;
 	line-height: 19px;
 	padding: 9px 21px;
+	word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 

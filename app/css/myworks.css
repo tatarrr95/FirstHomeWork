@@ -43,9 +43,13 @@
 }
 
 .project-url-on-image{
+	display: block;
+	text-decoration: none;
 	position: absolute;
     width: 100%;
-    top: 60px;
+    top: 0px;
+    height: 70px;
+    padding-top: 60px;
     text-align: center;
     transform: scale(0);
     -webkit-transform: scale(0);
