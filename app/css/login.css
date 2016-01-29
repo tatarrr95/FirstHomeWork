@@ -1,0 +1,168 @@
+.clearfix:before, .clearfix:after {
+ content: " ";
+ display: table;
+}
+.clearfix:after {
+ clear: both;
+}
+
+body{
+	background: url("../img/background.png") repeat;
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-footer{
+	position: relative;
+	background-color: #eff3f7;
+	height: 100px;
+	width: 100%;
+}
+
+.page-footer:before{
+	content: "";
+	display: block;
+	top: 0;
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	background-image: -moz-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(28,102,122) 0%, rgb(246,250,254) 0%, rgb(216,216,216) 0%, rgb(242,246,250) 0%, rgb(135,174,186) 28%, rgb(28,102,122) 48%, rgb(135,174,186) 71%, rgb(242,246,250) 100%);
+	
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+/*---------------------FOOTER---------------------*/
+
+.page-footer .container{
+	padding-top: 23px;
+	position: relative;
+}
+
+.page-footer .copyright{
+	margin: 0px 180px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 13px;
+	font-family: fira_sanslight;
+}
+
+.page-footer .footer-login{
+	position: absolute;
+	top: 26px;
+	left: 20px;
+}
+
+.footer-login-a{
+	display: block;
+	background: url(../img/icons/login.png);
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+	line-height: 40px;
+}
+
+.footer-login-a:hover{
+	background-image: url(../img/icons/login_complete.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+.login-section{
+	width: 590px;
+	height: 490px;
+	background-color: #eff3f7;
+	border-radius: 3px;
+}
+
+
+.header{
+	position: relative;
+	background-color: #48cbe8;
+	height: 92px;
+	border-bottom: 15px solid #67dffa;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.header .header-text{
+	display: block;
+	font-family: fira_sansbook;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+.body{
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label, .input, .go{
+	display: block;
+}
+
+.label{
+	text-align: center;
+	font-size: 36px;
+	font-family: fira_sanslight;
+	color: #959aa8;
+}
+
+input{
+	width: 424px;
+	height: 57px;
+}
+
+.input::-webkit-input-placeholder{
+	padding-left: 18px;
+	color: #48cbe8;
+	font-family: fira_sanslight;
+	font-size: 17px;
+	line-height: 17px;
+	border-radius: 2px;
+}
+
+.input:focus::-webkit-input-placeholder{
+	color: transparent
+}
+
+.go{
+	margin: 0px auto;
+	margin-top: 35px;
+	font-family: fira_sansbook;
+	font-size: 36px;
+	line-height: 36px;
+	color: white;
+	background-color: #48cbe8;
+	border-radius: 8px;
+	padding: 8px 67px;
+}
